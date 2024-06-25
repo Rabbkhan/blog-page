@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header h1 {
+    float: left;
+}
+
+main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.blog-posts {
+    flex: 3;
+}
+
+.card {
+    background: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card .content {
+    padding: 20px;
+}
+
+.card h2 {
+    color: #333;
+}
+
+.card .meta {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.sidebar {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.sidebar h3 {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sidebar ul li img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 30px;
+    border-top: #77aaff 3px solid;
+}
